@@ -74,27 +74,19 @@
 
 .overlay {
     width: 100%;
-    /* position: absolute; */
     background-color: rgba(0, 0, 0, 0.6);
     z-index: -1;
-    /* top: 0; */
-    /* left: 0; */
 }
 
 .cover-title {
     display: flex;
     flex-direction: column;
     padding: 165px 50px 115px;
-    /* padding: 165px 40px 50px 140px; */
-
-    /* gap: 20px; */
     text-transform: uppercase;
-    /* font-family: ; */
     font-size: 100px;
     font-weight: 700;
     letter-spacing: 30px;
     line-height: 100%;
-    font-size: 100px;
     color: #fff;
 }
 
@@ -112,7 +104,6 @@
 .text-right {
     padding-top: 35px;
     padding-left: 614px;
-    /* text-align: end; */
 }
 
 /* .cover-description {
@@ -335,9 +326,6 @@
 
 .footer-menu-link-active {
     list-style: none;
-}
-
-.footer-menu-link-active {
     text-decoration: none;
 }
 
