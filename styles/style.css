@@ -24,9 +24,11 @@
     font-weight: bold;
 }
 
-.header-menu-list-item-no-bullit,
-.header-menu-link-active {
+.header-menu-list-item-no-bullit {
     list-style-type: none;
+}
+
+.header-menu-link-active {
     text-decoration: none;
 }
 
@@ -63,13 +65,11 @@
     background-position: center;
     background-size: cover;
     color: #fff;
-    z-index: -2;
 }
 
 .overlay {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
-    z-index: -1;
 }
 
 .cover-title {
@@ -91,13 +91,14 @@
 
 .text-center {
     padding-top: 37px;
-    padding-left: 28px;
+    padding-left: 30px;
     text-align: center;
 }
 
 .text-right {
     padding-top: 35px;
-    padding-left: 614px;
+    margin-right: -30px;
+    text-align: right;
 }
 
 .cover-description {
@@ -166,7 +167,7 @@
 
 .card {
     width: 334px;
-    height: 596px;
+    min-height: 596px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -212,7 +213,6 @@
 }
 
 .about {
-    min-height: 595px;
     padding: 35px 24px 180px 24px;
 }
 
@@ -284,7 +284,6 @@
 }
 
 .footer-menu-link-active {
-    list-style: none;
     text-decoration: none;
 }
 
